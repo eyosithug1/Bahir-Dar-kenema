@@ -1,0 +1,16 @@
+{
+  "name": "bdk-fullstack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bahir Dar Kenema Football Club - Complete FullStack Solution",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "dev": "concurrently \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
