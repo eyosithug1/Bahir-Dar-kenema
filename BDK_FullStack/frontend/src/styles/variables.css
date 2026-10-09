@@ -1,0 +1,50 @@
+:root {
+  /* Brand Colors */
+  --bdk-primary: #0a3a40;
+  --bdk-primary-dark: #062327;
+  --bdk-primary-light: #145963;
+  --bdk-secondary: #f59e0b;
+  --bdk-secondary-hover: #d97706;
+  --bdk-accent: #06b6d4;
+  --bdk-gold: #fbbf24;
+  --bdk-tana-blue: #0284c7;
+
+  /* Neutrals & Dark Theme */
+  --bg-dark: #0b0f17;
+  --bg-card: #131b26;
+  --bg-card-hover: #1b2636;
+  --bg-card-glass: rgba(19, 27, 38, 0.75);
+  --bg-surface: #1e293b;
+  --bg-elevated: #243248;
+
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --text-dim: #64748b;
+  --text-gold: #fcd34d;
+
+  --border-color: rgba(255, 255, 255, 0.08);
+  --border-glow: rgba(245, 158, 11, 0.35);
+  --border-cyan: rgba(6, 182, 212, 0.3);
+
+  /* Status Colors */
+  --success: #10b981;
+  --danger: #ef4444;
+  --warning: #f59e0b;
+  --info: #3b82f6;
+
+  /* Typography */
+  --font-family: 'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Shadows & Glass */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 25px rgba(245, 158, 11, 0.25);
+  --shadow-cyan-glow: 0 0 25px rgba(6, 182, 212, 0.25);
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-full: 9999px;
+  --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
