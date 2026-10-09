@@ -1,0 +1,16 @@
+{
+  "name": "bahir-dar-kenema-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bahir Dar Kenema - Full Stack Project",
+  "scripts": {
+    "install:all": "npm --prefix BDK_FullStack/backend install && npm --prefix BDK_FullStack/frontend install",
+    "dev": "concurrently \"npm --prefix BDK_FullStack/backend run dev\" \"npm --prefix BDK_FullStack/frontend run dev\"",
+    "dev:backend": "npm --prefix BDK_FullStack/backend run dev",
+    "dev:frontend": "npm --prefix BDK_FullStack/frontend run dev",
+    "build": "npm --prefix BDK_FullStack/backend run build && npm --prefix BDK_FullStack/frontend run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
